@@ -1,17 +1,45 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Poppins", sans-serif;
 }
 
+.project-card {
+    text-align: center;
+    margin-bottom: 30px;
+}
 
-.d-flex.align-items-center span {
-    padding-left: 8px; /* 왼쪽에 간격 추가 */
-    
+.project-thumbnail {
+    border-radius: 10px;  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 15px;  
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.project-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.projects h5 a {
+    text-decoration: none; 
+    background-color: #6f4f37;  
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.project-card .btn:hover {
+    background-color: #4e3624;  
 }
 
 
